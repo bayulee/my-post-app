@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans&family=Quicksand&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: mulish,sans-serif;
+}
+body{
+  background-color: slateblue;
+}
+h1{
+  text-align: center;
+  margin:20px;
+  color:#2c1203;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.list{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.post{
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 10px;
+  background-color: coral;
+}
+.post h3{
+  text-align: center;
+}
